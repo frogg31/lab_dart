@@ -11,8 +11,6 @@ void fizzbuzz(int n) {
     }
   }
 }
-
-
 void main() {
-  return fizzbuzz(15);
+  return fizzbuzz(30);
 }
