@@ -5,12 +5,12 @@ void fizzbuzz(int n) {
     } else if (i % 3 == 0) {
       print("fizz");
     } else if (i % 5 == 0) {
-      print("buz");
+      print("buzz");
     } else {
       print(i);
     }
   }
 }
 void main() {
-  fizzbuzz(30);
+  fizzbuzz(50);
 }
