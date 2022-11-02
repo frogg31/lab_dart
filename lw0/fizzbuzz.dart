@@ -1,5 +1,5 @@
 void fizzbuzz(int n) {
-  for(int i=1;i<=n;i++){
+  for (int i = 1; i <= n; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
       print("fizzbuzz");
     } else if (i % 3 == 0) {
@@ -11,6 +11,7 @@ void fizzbuzz(int n) {
     }
   }
 }
+
 void main() {
   fizzbuzz(50);
 }
