@@ -6,8 +6,11 @@ bool anagram(String strOne, String strTwo) {
   strTwo = strTwo.replaceAll(exp, '');
   int i = 0;
   int j = strTwo.length - 1;
+  if(strOne.length != strTwo.length){
+    return false;
+  }
   while (i < strOne.length && j >= 0) {
-    if (strOne[i] != strTwo[j] || strOne.length != strTwo.length) {
+    if (strOne[i] != strTwo[j]) {
       return false;
     }
     i++;
